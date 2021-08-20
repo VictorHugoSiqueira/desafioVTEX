@@ -1,0 +1,108 @@
+{
+  "store.home": {
+    "blocks": [
+      // "tab-layout",
+      // "slider-layout#home",
+      // "rich-text",
+      "flex-layout.row#shelf"
+    ]
+  }, 
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  }, 
+  "rich-text" : {
+    "props": {
+      "text" : "Você está vendo provas de",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "arrows": true,
+      "gap": 7
+       }
+  },
+  
+
+    "tab-layout": {
+      "children": [
+        "tab-list"
+      ]
+    },
+    "tab-list": {
+      "children": [
+        "tab-list.item#1",
+        "tab-list.item#2",
+        "tab-list.item#3",
+        "tab-list.item#4",
+        "tab-list.item#5",
+        "tab-list.item#6"
+      ]
+    },
+    "tab-list.item#1": {
+      "props": {
+        "tabId": "PROMOÇÃO",
+        "label": "PROMOÇÃO",
+        "defaultActiveTab": true
+      }
+    },
+    "tab-list.item#2": {
+      "props": {
+        "tabId": "CORINTHIANS",
+        "label": "CORINTHIANS"
+      }
+    },
+    "tab-list.item#3": {
+      "props": {
+        "tabId": "PALMEIRAS",
+        "label": "PALMEIRAS"
+      }
+    },
+    "tab-list.item#4": {
+      "props": {
+        "tabId": "SIGNOS",
+        "label": "SIGNOS"
+      }
+    },
+    "tab-list.item#5": {
+      "props": {
+        "tabId": "DIVERTIDOS",
+        "label": "DIVERTIDOS"
+      }
+    },
+    "tab-list.item#6": {
+      "props": {
+        "tabId": "7 MARAVILHAS",
+        "label": "7 MARAVILHAS"
+      }
+    }
+  }
