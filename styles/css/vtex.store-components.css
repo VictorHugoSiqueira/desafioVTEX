@@ -1,42 +1,22 @@
+
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
     background-color: #080707;
   }
-.listItem {
-    background-color: black;
-}
-    /* estilização dos botões da tab on top */
+    /* estilização dos botões da tab on top */ 
 :global(.vtex-button) {
     background-color: black;
     text-decoration-color: white;
     margin-top: none;
-    margin-left: 130px;
     border-style: hidden;
 } 
-.c-action-primary {
-    color: white;
-}
-
-    /* background da tab no topo(promoção,corinthias,etc) */
-:global(.vtex-tab-layout-0-x-container) {
-    background-color: black;
-    
-}
    /* mudando a cor da fonte do tab-layout) */
 :global(.vtex-button__label){
     color:white;
 }
 
-:global(.vtex-slider-layout-0-x-slide ) {
-    width: 20rem;
-    background-color: #424242;
-}
     /* background cinza da home por trás do slider layout  */
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
-    background-color: #424242;
-}
-     /* alinhando ao centro o slider layout */
-:global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
-    justify-content: center;
+    background-color: #303030;
 }
     /* imagem arredondada do slider layout */
 :global(.vtex-store-components-3-x-imageElement) {
@@ -58,39 +38,33 @@
     background-color: black;
     width: 1000px;
 }
-  /* largura do slider-layout*/
+  /* largura do slider-layout*/ 
 :global(.vtex-slider-layout-0-x-sliderTrackContainer) {
     width: 1000px;
 }
 
-:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf) {
-    width: 300px;
-}
-
-:global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf) {
-    max-width: 600px;
-    justify-items: left;
-}
-
-.vtex-product-summary-2-x-buyButton {
-    
-}
  /* coloração e tamanho de font do rich text(voce está vendo provas de )*/
 :global(.vtex-rich-text-0-x-paragraph) {
     font-size: 1rem;
     font-weight: 500;
     color: #59ff00;
-    background-color: #424242;
+    background-color: #303030;
 }
  /* background color da parte de trás da div do rich text ( voce está vendo provas de ) */
 :global(.vtex-rich-text-0-x-container) {
-    background-color: #424242;
+    background-color: #303030;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow) {
-    background-color: #424242 ;
+:global(.vtex-tab-layout-0-x-container) {
+    background-color: black;
 }
-/* background color do header onde está o logo e o input */
-:global(.vtex-flex-layout-0-x-flexRowContent) {
-    background-color: black ;
+
+/* background do search-result */
+:global(.vtex-search-result-3-x-searchResultContainer){
+    background-color: #303030;
+    max-width: 100%;
+}
+
+:global(.vtex-button__label){
+    padding-right: 900px
 }
