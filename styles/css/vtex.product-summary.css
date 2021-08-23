@@ -1,11 +1,9 @@
-.vtex-product-summary-2-x-element {
-    background-color: chartreuse;
+.nameContainer {
+    background-color: #615c5c;
+    border-radius: 6px;
 }
 
-.vtex-product-summary-2-x-clearLink {
-    background-color: chartreuse;
-}
-
-.vtex-product-summary-2-x-container , .vtex-product-summary-2-x-containerNormal {
-    background-color: chartreuse;
+.priceContainer {
+    background-color: #615c5c;
+    border-radius: 6px;
 }

@@ -28,21 +28,20 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-     /* "locale-switcher", */
-      "login",
+     // "login",
       "minicart.v2"
     ]
   },
   "flex-layout.col#spacer": {
     "props": {
-      "width": "grow",
+      "width": "100%",
       "background-color": "#fff"
         }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
-    },
+      "verticalAlign": "middle",
+      "marginRight": 10    },
     "children": ["logo"]
   },
   "logo": {

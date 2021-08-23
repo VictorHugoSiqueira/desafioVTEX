@@ -58,11 +58,26 @@
       "modal-trigger#h",
       "product-summary-name",
       "product-images#h",
-      "vtex.product-highlights@2.x:product-highlights",
+      "rich-text#product1",
+      "rich-text#product2",
       "product-summary-price",
       "add-to-cart-button#h"
 
     ]
+  },
+  "rich-text#product1": {
+    "props": {
+      "text": "PRÉ-LANÇAMENTO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#product2": {
+    "props": {
+      "text": "VALIDAÇÃO A PARTIR DE 23/08/2021",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   },
 
   "modal-trigger#h": {
@@ -88,29 +103,14 @@
         "loop": false,
         "autoPlay": true,
         "muted": false,
-        "src": "https://www.youtube.com/watch?v=wygFqZXMIco",
+        "src": "https://www.youtube.com/watch?v=4hHDbIXAcKc",
         "blockClass": "videoEl"
       }
   },
   "add-to-cart-button#h" : {
     "props":{
     "onClickBehavior": "go-to-product-page",
-    "blockClass": "botãoproduto",
     "text": "VER DETALHES"
-    }
-  },
-  "vtex.product-highlights@2.x:product-highlights": {
-    "children": ["product-highlight-text#1","product-highlight-text#2"]
-  },
-  "product-highlight-text#1": {
-    "props": {
-      "message": "PRÉ-LANÇAMENTO"
-    }
-  },
-  
-  "product-highlight-text#2": {
-    "props": {
-      "message": "VALIDAÇÃO A PARTIR DE 23/08/2021"
     }
   },
   "product-images#h": {

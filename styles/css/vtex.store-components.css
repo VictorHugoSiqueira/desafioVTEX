@@ -62,9 +62,12 @@
 /* background do search-result */
 :global(.vtex-search-result-3-x-searchResultContainer){
     background-color: #303030;
-    max-width: 100%;
 }
 
-:global(.vtex-button__label){
-    padding-right: 900px
+.searchBarContainer {
+    margin-right: 100px;
+    align-content: center;
 }
+
+:global(.vtex-store-components-3-x-container) {
+max-width: 100%;}
